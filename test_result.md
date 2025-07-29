@@ -329,9 +329,19 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "All 12 Sections Verification"
+    - "VIP + Modern + 3D Animation Testing"
+    - "Responsive Design Testing"
+    - "Contact Form Integration Testing"
+    - "Navigation & Scroll Testing"
+    - "Performance & Animation Testing"
+    - "Visual Design Verification"
+    - "Interactive Elements Testing"
+    - "Cross-Device Testing"
+    - "Content & Messaging Testing"
   stuck_tasks: []
-  test_all: false
+  test_all: true
   test_priority: "high_first"
 
 agent_communication:
