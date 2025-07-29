@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the DiamondAli VIP Portfolio backend API thoroughly including contact form endpoint, health check, email functionality, database integration, error handling, and security testing."
+user_problem_statement: "Test the DiamondAli VIP Portfolio website comprehensively across all aspects including all 12 sections, VIP animations, responsive design, contact form integration, navigation, performance, and cross-device compatibility."
 
 backend:
   - task: "Contact Form Endpoint (POST /api/contact)"
