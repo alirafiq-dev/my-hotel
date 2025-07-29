@@ -147,7 +147,7 @@ async def send_email(contact_message: ContactMessage):
                     <div style="margin: 15px 0;">
                         <strong style="color: #333;">💬 Message:</strong>
                         <div style="margin: 5px 0; padding: 15px; background: white; border-left: 4px solid #FFD700; border-radius: 5px;">
-                            {contact_message.message.replace('\n', '<br>')}
+{contact_message.message.replace(chr(10), '<br>')}
                         </div>
                     </div>
                     
